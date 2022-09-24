@@ -1,0 +1,219 @@
+body {
+    background-image: url(imagenes/white-abstract-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 73rem;
+}
+
+h1 {
+    position: relative;
+    margin-top: 16px;
+    margin-left: 25px;
+    margin-right: 924px;
+}
+
+.logoAlura:hover{
+    cursor: pointer;
+}
+
+h2 {
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #767984;
+}
+
+.logoOracle {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    width: 120px;
+    height: 120px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-text {
+    display: inline-block;
+}
+
+.input-texto {
+    font-family: 'Philosopher', sans-serif;
+    font-size: large;
+    resize: none;
+    margin-top: 35px;
+    padding: 24px;
+    position: relative;
+    left: 70px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+::placeholder {
+    font-size: 22px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    color: #23b8b3;
+    letter-spacing: 2px;
+}
+
+.advertencia {
+    display: flex;
+    position: relative;
+    left: 90px;
+    color: #23b8b3;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin: 46px;
+}
+
+.encrypt {
+    border-radius: 15px;
+    border-color: transparent;
+    box-shadow: 5px 3px 3px darkgray;
+    background: #0909a5b3;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fefefe;
+    margin: 12px;
+    width: 160px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.encrypt:hover {
+    background-image: linear-gradient(45deg, #34b2cb, #1a7b8f);
+    transform: scale(1.2);
+    transition: 1s all; 
+}
+
+.encrypt:active {
+    transform: translate(2px);
+    transition: .2s;
+}
+
+.decrypt {
+    border-radius: 15px;
+    border-color: transparent;
+    box-shadow: 5px 3px 3px darkgray;
+    background: #636363b8;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffff;
+    margin: 12px;
+    width: 160px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.decrypt:hover {
+    background-image: linear-gradient(45deg, #34b2cb, #1a7b8f);
+    transform: scale(1.3);
+    transition: 1s all; 
+}
+
+.decrypt:active {
+    transform: translate(2px);
+    transition: .2s;
+}
+
+.input-message {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    right: 60px;
+}
+
+.mensaje {
+    border-radius: 10px;
+    border-width: .8mm;
+    border-color: black;
+    outline-color: gray;
+    font-family: 'Philosopher', sans-serif;
+    font-size: large;
+    resize: none;
+    background-color: transparent;
+    background-image: url(Imagenes/buscando.gif);
+    background-position: center;
+    background-size: contain;
+}
+
+.copiar {
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    background: #01c8c8;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 12px;
+    width: 160px;
+    height: 55px;
+    position: relative;
+    right: 210px;
+    cursor: pointer;
+    stroke-dasharray: 20;
+}
+
+.copiar:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.copiar:active {
+    transform: translate(2px);
+    transition: .2s;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin: 7px;
+    padding: 7px;
+    position: absolute;
+    left: 600px;
+    bottom: 11px;
+    font-style: italic;
+    font-size: small;
+}
+
+nav {
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+    margin: 5px;
+    padding: 5px;
+}
+
+em {
+    display: flex;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width: fit-content;
+    position: relative;
+    bottom: 4px;
+}
+
+.linkedin {
+    max-height: 40px;
+}
+
+.github {
+    max-height: 40px;
+}

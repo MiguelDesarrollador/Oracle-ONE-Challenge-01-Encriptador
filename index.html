@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a class="logoAlura" href="https://www.aluracursos.com/"><img src="https://i.ibb.co/ZSJC8pc/Vector.png" alt="Logo alura con a miniscula"></a>
+        </h1>
+        <h2>Bienvenido a tu Encriptador.</h2>
+        <h3>
+            <a href="https://www.oracle.com/mx/education/oracle-next-education/"><img class="logoOracle" src="https://i.ibb.co/nszryJ1/logo-ajustado.png" alt="logo oracle next education azul y gris"></a>
+        </h3>
+
+    </header>
+
+    <main>
+        <section class="input-text">
+            <textarea class="input-texto" cols="55" rows="15" placeholder="Ingrese su texto aquí." required></textarea>
+            <p class="advertencia">&#9888 Recuerda usar solamente minúsculas y sin acentos.</p>
+            <div class="buttons">
+                <button class="encrypt" onclick="bttnEncrypt()">
+                    Encriptar
+                </button>
+                <button class="decrypt" onclick="bttnDecrypt()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+
+        <section class="input-message">
+            <textarea class="mensaje" cols="41" rows="22" ></textarea>
+            <button class="copiar" onclick="copiar()"> Copiar 
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&#9960 Challenge 01 programa ONE, Miguel Antonio Carrillo.</p>
+        <nav>
+            <em>Sigueme en:</em>
+            <a href="https://www.linkedin.com/in/miguel-antonio-carrillo-b74949246/"><img class="linkedin" src="https://i.ibb.co/Ypdj25W/linkedin-logo-ajustado.png" alt="logo linkedin"></a>
+            <a href="https://github.com/MiguelDesarrollador"><img class="github" src="https://i.ibb.co/8r7P9jG/github-logo-ajustado.png" alt="github logo"></a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
